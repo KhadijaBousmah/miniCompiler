@@ -1,0 +1,11 @@
+DECLA toto;
+toto <- 2;
+TQ toto>0 FAIRE
+	toto <- toto + 1 ;
+	SI toto = 3 ALORS 
+		toto <- 0;
+	SINON 
+		toto <- 0;
+	FSI
+FTQ
+AFFICHER toto;
